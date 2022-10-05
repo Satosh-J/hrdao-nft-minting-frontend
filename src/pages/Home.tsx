@@ -1,8 +1,8 @@
-import { FC } from "react";
+import { FC } from 'react';
 
 const Home: FC = () => {
   return <h1>
-    {"This is home screen"}
+    {'This is home screen'}
   </h1>
 }
 
