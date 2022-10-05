@@ -1,9 +1,6 @@
 import { FC, memo } from 'react'
-import AppBar from '@mui/material/AppBar'
-import { Box, IconButton } from '@mui/material'
-import Toolbar from '@mui/material/Toolbar'
-import Container from '@mui/material/Container'
-import Button from '@mui/material/Button'
+import { AppBar, Button, Box, Container, IconButton, Toolbar } from '@mui/material'
+
 import daoLogo from 'assets/humanrightsDAO.svg'
 import twitterIcon from 'assets/akar-icons_twitter-fill.svg'
 import discordIcon from 'assets/akar-icons_discord-fill.svg'
@@ -12,7 +9,7 @@ import discordIcon from 'assets/akar-icons_discord-fill.svg'
 const HrAppBar: FC = memo(() => {
 
   return (
-    <AppBar position="static"
+    <AppBar position="fixed"
       sx={{
         color: 'black',
         background: 'white',

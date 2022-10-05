@@ -1,17 +1,13 @@
-import { Container, ThemeProvider } from '@mui/material'
-import HrAppBar from 'components/AppBar'
-import { hrTheme } from 'helpers/theme'
 import { FC } from 'react'
+import Page from 'components/Page'
+import ScrollSection from 'components/home/ScrollSection'
+
 
 const Home: FC = () => {
   return (
-    <ThemeProvider theme={hrTheme}>
-      <HrAppBar />
-      <Container
-        id='page-container'
-      >
-      </Container>
-    </ThemeProvider>
+    <Page>
+      <ScrollSection />
+    </Page>
   )
 }
 
