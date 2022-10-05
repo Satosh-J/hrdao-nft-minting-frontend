@@ -28,7 +28,25 @@
     "rules": {
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
-        "quotes": [1, "single"],
-        "no-console": 1
+        "quotes": [
+            1,
+            "single"
+        ],
+        "no-console": 1,
+        "semi": [
+            1,
+            "never"
+        ],
+        "no-trailing-spaces": 1,
+        "camelcase": [
+            1,
+            {
+                "ignoreDestructuring": true,
+                "ignoreImports": true
+            }
+        ],
+        "react/display-name": 0,
+        "default-case": 1,
+        "default-param-last": 1
     }
 }
