@@ -67,7 +67,7 @@ const ScrollSection: FC = () => {
         </Grid>
         <Grid item md={6} xs={12} >
           <Box display='flex' justifyContent={'center'} alignItems='center'>
-            <video style={{ width: '100%' }} src={redScroll} autoPlay loop>
+            <video style={{ width: '100%' }} src={redScroll} autoPlay loop muted playsInline controlsList="nodownload noplaybackrate">
               Your browser does not support the video tag.
             </video>
           </Box>
