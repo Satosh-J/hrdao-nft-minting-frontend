@@ -12,8 +12,8 @@ const goals = [
 
 const ScrollSection: FC = () => {
   return (
-    <Box display='flex' justifyContent={'center'}>
-      <Grid container height='calc(100vh - 100px)' spacing={4} maxWidth='lg' justifyContent='center' alignItems={'center'}>
+    <Box display='flex' justifyContent={'center'} py={5}>
+      <Grid container minHeight='calc(100vh - 100px)' spacing={4} maxWidth='lg' justifyContent='center' alignItems={'center'}>
         <Grid item md={6} xs={12} >
           <Box>
             <Typography

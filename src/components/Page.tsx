@@ -17,7 +17,7 @@ const Page: FC<ParentPgContainerProps> = ({ children }) => {
           {children}
         </Container>
       </>
-    </ThemeProvider>
+    </ThemeProvider >
   )
 }
 

@@ -37,7 +37,13 @@ export const hrTheme = createTheme({
       contrastText: '#ffffff',
       light: COLORS.blueLight,
       dark: COLORS.blueDark
-    }
+    },
+    yellow: {
+      main: COLORS.yellow,
+      contrastText: '#000',
+      light: COLORS.yellowLight,
+      dark: COLORS.yellowDark
+    },
   },
   components: {
     MuiButton: {
@@ -46,9 +52,27 @@ export const hrTheme = createTheme({
           borderRadius: 20,
           minHeight: 30,
           minWidth: 120,
-          textTransform: 'none'
+          textTransform: 'none',
+          // fontWeight: 'bold'
         }
       }
+    },
+    MuiContainer: {
+      styleOverrides: {
+      },
+      variants: [
+        {
+          props: {
+            maxWidth: false
+          },
+          style: {
+            '&.MuiContainer-root': {
+              paddingLeft: 0,
+              paddingRight: 0
+            },
+          },
+        }
+      ]
     }
   }
 })
