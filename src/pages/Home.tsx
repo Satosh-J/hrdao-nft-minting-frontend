@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Page from 'components/Page'
 import ScrollSection from 'components/home/ScrollSection'
 import AimGoalSection from 'components/home/AimGoalSection'
+import FaqSection from 'components/home/FaqSection'
 
 
 const Home: FC = () => {
@@ -9,6 +10,7 @@ const Home: FC = () => {
     <Page>
       <ScrollSection />
       <AimGoalSection />
+      <FaqSection />
     </Page>
   )
 }
